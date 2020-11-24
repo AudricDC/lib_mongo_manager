@@ -25,8 +25,8 @@ AUTH_SOURCE = auth_source
 
 mongo.py contains an MongoDB class that connect to mongoDB.
 
-Connection can be local i.e the standard one using a MongoDB installation, or remote in a cloud using atlas.\
-To get started and for more information about atlas, just follow the steps in the following link : https://docs.atlas.mongodb.com/getting-started/\
+Connection can be local i.e the standard one using a MongoDB installation, or remote in a cloud using atlas.
+To get started and for more information about atlas, just follow the steps in the following link : https://docs.atlas.mongodb.com/getting-started/
 Connection type is specified in the MongoDB constructor (see connection attribute).
 
 MongoDB object contains methods like : query, getSortedRecords, getDf, update, insert and dfToJsonList.
